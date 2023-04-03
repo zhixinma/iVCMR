@@ -23,7 +23,7 @@ cd iVCMR
 ```
 
 2. Data Preparation
-The data can be found [here]() and are organized as follows:
+The data can be found [here](https://smu-my.sharepoint.com/:f:/g/personal/zxma_2020_phdcs_smu_edu_sg/ElJzK_VKYp1AlHEsS0DkSA4BV0rTTUwUyZ28ls5e--dwzQ?e=XBBVNn) and are organized as follows:
 ```
 ckpt
 ├── tvr_v8m01Ea2c01_step_penalty5_best_acc
@@ -80,7 +80,7 @@ The exported conda environment ```iVCMR.yml``` can be found [here](./envs/iVCMR.
 ### Training and Inference
 
 #### Inference
-A2C approach (Ours): The model checkpoint ```tvr_v8m01Ea2c01_step_penalty5_best_acc``` can be downloaded from [here](./).
+A2C approach (Ours): The model checkpoint ```tvr_v8m01Ea2c01_step_penalty5_best_acc``` can be downloaded from [here](https://smu-my.sharepoint.com/:f:/g/personal/zxma_2020_phdcs_smu_edu_sg/ElJzK_VKYp1AlHEsS0DkSA4BV0rTTUwUyZ28ls5e--dwzQ?e=XBBVNn).
 ```
 python -u main.py --mode infer --dataset tvr \
 --data_root /path/to/data --ckpt_root /path/to/ckpt \
@@ -90,7 +90,7 @@ python -u main.py --mode infer --dataset tvr \
 --wo_replacement --training_prefix tvr_v8m01Ea2c01_step_penalty5
 ```
 
-W/o query updating: The model checkpoint ```tvr_v8m01nEnqu_best_acc``` can be downloaded from [here](./).
+W/o query updating: The model checkpoint ```tvr_v8m01nEnqu_best_acc``` can be downloaded from [here](https://smu-my.sharepoint.com/:f:/g/personal/zxma_2020_phdcs_smu_edu_sg/ElJzK_VKYp1AlHEsS0DkSA4BV0rTTUwUyZ28ls5e--dwzQ?e=XBBVNn).
 ```
 python -u main.py --mode infer --dataset tvr \
 --data_root /path/to/data --ckpt_root /path/to/ckpt \
