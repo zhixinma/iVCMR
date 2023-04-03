@@ -1,5 +1,5 @@
 # iVCMR: Interactive Video Corpus Moment Retrieval using Reinforcement Learning
-PyTorch implementation of ACM Multimedia 2022 paper "Interactive Video Corpus Moment Retrieval using Reinforcement Learning"
+PyTorch implementation of ACM Multimedia 2022 paper "[Interactive Video Corpus Moment Retrieval using Reinforcement Learning](https://arxiv.org/abs/2302.09522)"
 
 ## Task Definition
 
@@ -11,7 +11,7 @@ iVCMR:
 + Query Updater
 + Environment
 
-![architecture](./figs/architecture.pdf)
+![architecture](./figs/architecture.png)
 
 ## Getting Start
 
