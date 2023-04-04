@@ -23,7 +23,9 @@ cd iVCMR
 ```
 
 2. Data Preparation
+
 The data can be found [here](https://smu-my.sharepoint.com/:f:/g/personal/zxma_2020_phdcs_smu_edu_sg/ElJzK_VKYp1AlHEsS0DkSA4BV0rTTUwUyZ28ls5e--dwzQ?e=XBBVNn) and are organized as follows:
+
 ```
 ckpt
 ├── tvr_v8m01Ea2c01_step_penalty5_best_acc
